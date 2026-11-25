@@ -1,0 +1,45 @@
+# Private configuration and credentials
+.env
+.env.*
+*.env
+/secrets/
+/credentials/
+*.pem
+*.key
+
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+.uv-cache/
+
+# Build output
+build/
+dist/
+*.egg-info/
+
+# Runtime configuration, state, and logs
+*.log
+*.log.*
+*.pid
+*.lock
+!uv.lock
+/runtime/
+/logs/
+/state/
+/data/
+/jobs.json
+
+# Editor and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*~
